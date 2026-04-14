@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long zeroFilledSubarray(vector<int>& nums) {
-        long long count = 0;
+     long long count = 0;
         int conscount = 0;
         for(int num : nums){
             if(num == 0){
